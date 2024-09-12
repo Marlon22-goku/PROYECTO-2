@@ -1,0 +1,87 @@
+/* General */
+body {
+    font-family: Arial, rgb(0, 0, 0);
+}
+
+section {
+    padding: 200px 0;
+}
+
+/* Menú de Navegación */
+.navbar {
+    margin-bottom: 70px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #eeff02;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ff0000;
+}
+
+/* Secciones */
+#home {
+    background-color: #ff02eafb;
+    text-align: center;
+}
+
+#inicio {
+    background-image: url('img/dominios\ web.webp'); /* Agrega la ruta a tu imagen aquí */
+    background-size: cover;
+    background-position: center;
+}
+
+#about {
+    background-image: url('img/dominios\ web.webp'); /* Agrega la ruta a tu imagen aquí */
+    background-size: cover;
+    background-position: center;
+    color: hwb(0 100% 0%);
+    text-shadow: 0px 0%px 0%px hwb(0 100% 0%);
+}
+
+#definicion {
+    background-color: #ffee00;
+}
+
+#tipos {
+    background-color: #ffffff;
+}
+
+#aspectos {
+    background-color: #cb8cff;
+}
+
+/* Formulario de Contacto */
+#contact {
+    background-color: #000000;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+button.btn-primary {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+button.btn-primary:hover {
+    background-color: #ff00d4;
+    border-color: #00f7ff;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #000000;
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    #about {
+        text-align: center;
+    }
+}
