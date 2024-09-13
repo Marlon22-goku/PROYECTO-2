@@ -1,10 +1,8 @@
-// script.js
-
-// Ejemplo de función que se ejecuta al cargar la página
+// Espera a que el contenido del DOM se cargue completamente
 document.addEventListener('DOMContentLoaded', function() {
     console.log('La página ha cargado completamente.');
 
-    // Ejemplo de código para manejar eventos
+    // Maneja el envío del formulario de contacto
     const contactForm = document.querySelector('form');
     if (contactForm) {
         contactForm.addEventListener('submit', function(event) {

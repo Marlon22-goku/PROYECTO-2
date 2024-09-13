@@ -1,19 +1,35 @@
 /* General */
 body {
+
+    body{
+
+        font-family: Arial, rgb(187, 255, 0);
+        background-color: rgb(51, 255, 0);
+        text-align: center;
+    }
+    h2{
+        color: #0004ff;
+    }
+    a{
+        text-decoration: navajowhite;
+        color: rgb(255, 2, 2);
+    }
     font-family: Arial, rgb(0, 0, 0);
+
 }
 
 section {
-    padding: 200px 0;
+
+    padding: 100px 0;
 }
 
 /* Menú de Navegación */
 .navbar {
-    margin-bottom: 70px;
+    margin-bottom: px;
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #eeff02;
+    color: #00ff0d;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
@@ -24,12 +40,6 @@ section {
 #home {
     background-color: #ff02eafb;
     text-align: center;
-}
-
-#inicio {
-    background-image: url('img/dominios\ web.webp'); /* Agrega la ruta a tu imagen aquí */
-    background-size: cover;
-    background-position: center;
 }
 
 #about {
@@ -45,7 +55,7 @@ section {
 }
 
 #tipos {
-    background-color: #ffffff;
+    background-color: #ff00f2;
 }
 
 #aspectos {
@@ -54,7 +64,7 @@ section {
 
 /* Formulario de Contacto */
 #contact {
-    background-color: #000000;
+    background-color: #ff0000;
 }
 
 .form-control {
@@ -62,20 +72,20 @@ section {
 }
 
 button.btn-primary {
-    background-color: #000000;
-    border-color: #000000;
+    background-color: #09ff00;
+    border-color: #00e1ff;
 }
 
 button.btn-primary:hover {
     background-color: #ff00d4;
-    border-color: #00f7ff;
+    border-color: #0011ff;
 }
 
 /* Pie de Página */
 footer {
     background-color: #000000;
     color: rgb(0, 0, 0);
-    padding: 20px 0;
+    padding: 60px 0;
     text-align: center;
 }
 
@@ -85,3 +95,6 @@ footer {
         text-align: center;
     }
 }
+
+
+
